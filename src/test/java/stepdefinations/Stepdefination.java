@@ -28,6 +28,7 @@ public class Stepdefination {
 	    @Then("^Check if browser is started$")
 	    public void check_if_browser_is_started() throws Throwable {
 	       System.out.println("Background also implemented");
+	       System.out.println("Background also implemented2");
 	    }
 
 	
@@ -35,6 +36,7 @@ public class Stepdefination {
 	    public void user_is_on_netbanking_landing_page() throws Throwable {
 	       
 		System.out.println("User is on our Netbanking page");
+		System.out.println("User is on our Netbanking page1");
 	    }
 
 	    @When("^User login into apllication with username and password$")
@@ -46,6 +48,7 @@ public class Stepdefination {
 	    @Then("^Home page is populated$")
 	    public void home_page_is_populated() throws Throwable {
 	       
+	    	  System.out.println("Cards are displayed");
 	    }
 
 	    @And("^cards are displayed$")
