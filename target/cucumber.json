@@ -1,0 +1,506 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-30T13:39:56.345Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Home page of default login with parameterization",
+        "description": "",
+        "id": "application-login;home-page-of-default-login-with-parameterization;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hooks.Aftervalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User is on Netbanking  landing page",
+            "match": {
+              "location": "stepdefinations.Stepdefination.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User login in to application  with User1 and Pass1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User1",
+                  "offset": 35
+                },
+                {
+                  "val": "Pass1",
+                  "offset": 45
+                }
+              ],
+              "location": "stepdefinations.Stepdefination.user_login_in_to_application_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepdefinations.Stepdefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinations.Stepdefination.cards_displayed_are(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataParameterization"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:39:56.464Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 63,
+        "name": "Home page of default login with parameterization",
+        "description": "",
+        "id": "application-login;home-page-of-default-login-with-parameterization;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hooks.Aftervalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User is on Netbanking  landing page",
+            "match": {
+              "location": "stepdefinations.Stepdefination.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User login in to application  with User2 and Pass2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User2",
+                  "offset": 35
+                },
+                {
+                  "val": "Pass2",
+                  "offset": 45
+                }
+              ],
+              "location": "stepdefinations.Stepdefination.user_login_in_to_application_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepdefinations.Stepdefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinations.Stepdefination.cards_displayed_are(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataParameterization"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:39:56.477Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "Home page of default login with parameterization",
+        "description": "",
+        "id": "application-login;home-page-of-default-login-with-parameterization;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hooks.Aftervalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User is on Netbanking  landing page",
+            "match": {
+              "location": "stepdefinations.Stepdefination.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User login in to application  with User3 and Pass3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User3",
+                  "offset": 35
+                },
+                {
+                  "val": "Pass3",
+                  "offset": 45
+                }
+              ],
+              "location": "stepdefinations.Stepdefination.user_login_in_to_application_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepdefinations.Stepdefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinations.Stepdefination.cards_displayed_are(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataParameterization"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:39:56.491Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "Home page of default login with parameterization",
+        "description": "",
+        "id": "application-login;home-page-of-default-login-with-parameterization;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hooks.Aftervalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User is on Netbanking  landing page",
+            "match": {
+              "location": "stepdefinations.Stepdefination.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User login in to application  with User4 and Pass4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User4",
+                  "offset": 35
+                },
+                {
+                  "val": "Pass4",
+                  "offset": 45
+                }
+              ],
+              "location": "stepdefinations.Stepdefination.user_login_in_to_application_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepdefinations.Stepdefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinations.Stepdefination.cards_displayed_are(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataParameterization"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:39:56.501Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "Home page of default login with parameterization",
+        "description": "",
+        "id": "application-login;home-page-of-default-login-with-parameterization;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinations.Hooks.Aftervalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User is on Netbanking  landing page",
+            "match": {
+              "location": "stepdefinations.Stepdefination.user_is_on_netbanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User login in to application  with User5 and Pass5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User5",
+                  "offset": 35
+                },
+                {
+                  "val": "Pass5",
+                  "offset": 45
+                }
+              ],
+              "location": "stepdefinations.Stepdefination.user_login_in_to_application_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepdefinations.Stepdefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinations.Stepdefination.cards_displayed_are(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DataParameterization"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
