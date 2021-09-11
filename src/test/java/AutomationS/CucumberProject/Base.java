@@ -17,7 +17,7 @@ public class Base {
 		
          prop = new Properties();
         
-        FileInputStream fis = new FileInputStream("C:\\Users\\a\\eclipse-workspace\\CucumberProject\\src\\test\\java\\AutomationS\\CucumberProject\\global.properties");
+        FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\AutomationS\\CucumberProject\\global.properties");
         prop.load(fis);
 		
     	//System.setProperty("webdriver.chrome.driver","D:\\AutomationStuff\\chromedriver_win32\\chromedriver.exe");
