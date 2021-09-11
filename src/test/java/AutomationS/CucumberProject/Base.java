@@ -20,8 +20,12 @@ public class Base {
         FileInputStream fis = new FileInputStream("C:\\Users\\a\\eclipse-workspace\\CucumberProject\\src\\test\\java\\AutomationS\\CucumberProject\\global.properties");
         prop.load(fis);
 		
-    	System.setProperty("webdriver.chrome.driver","D:\\AutomationStuff\\chromedriver_win32\\chromedriver.exe");
-    	 driver = new ChromeDriver ();
+    	//System.setProperty("webdriver.chrome.driver","D:\\AutomationStuff\\chromedriver_win32\\chromedriver.exe");
+    	 
+        System.setProperty("webdriver.chrome.driver",".\\libs\\chromedriver.exe");
+
+        
+        driver = new ChromeDriver ();
     	 
     	 driver.get(prop.getProperty("url"));
      	

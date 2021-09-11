@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="25" failures="0" name="cucumberOptions.TestRunner" time="0.027" errors="0" skipped="0">
+<testsuite tests="10" failures="0" name="cucumberOptions.TestRunner" time="26.466" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Users\a\.jenkins\tools\hudson.model.JDK\Java_SE_8_\jre\bin"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Users\a\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache-maven-3.8.2\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\a\.jenkins\tools\hudson.model.JDK\Java_SE_8_\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\a\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache-maven-3.8.2/bin;C:\Users\a\.jenkins\tools\hudson.model.JDK\Java_SE_8_/bin;C:\Users\a\.jenkins\tools\hudson.model.JDK\Java_SE_8_/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Users\a\work\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="C:\Users\a\.jenkins\tools\hudson.model.JDK\Java_SE_8_\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\a\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache-maven-3.8.2/bin;C:\Users\a\.jenkins\tools\hudson.model.JDK\Java_SE_8_/bin;C:\Users\a\.jenkins\tools\hudson.model.JDK\Java_SE_8_/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Users\a\work\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin;C:\Program Files\Git\cmd;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="maven.conf" value="C:\Users\a\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache-maven-3.8.2/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -62,29 +62,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Home page of default login with parameterization #1" name="User is on Netbanking  landing page" time="0"/>
-  <testcase classname="Home page of default login with parameterization #1" name="User login in to application  with User1 and Pass1" time="0.001"/>
-  <testcase classname="Home page of default login with parameterization #1" name="Home page is populated" time="0"/>
-  <testcase classname="Home page of default login with parameterization #1" name="cards displayed are &quot;true&quot;" time="0"/>
-  <testcase classname="Home page of default login with parameterization #1" name="Home page of default login with parameterization #1" time="0.013"/>
-  <testcase classname="Home page of default login with parameterization #2" name="User is on Netbanking  landing page" time="0.001"/>
-  <testcase classname="Home page of default login with parameterization #2" name="User login in to application  with User2 and Pass2" time="0"/>
-  <testcase classname="Home page of default login with parameterization #2" name="Home page is populated" time="0"/>
-  <testcase classname="Home page of default login with parameterization #2" name="cards displayed are &quot;true&quot;" time="0.001"/>
-  <testcase classname="Home page of default login with parameterization #2" name="Home page of default login with parameterization #2" time="0.002"/>
-  <testcase classname="Home page of default login with parameterization #3" name="User is on Netbanking  landing page" time="0"/>
-  <testcase classname="Home page of default login with parameterization #3" name="User login in to application  with User3 and Pass3" time="0"/>
-  <testcase classname="Home page of default login with parameterization #3" name="Home page is populated" time="0"/>
-  <testcase classname="Home page of default login with parameterization #3" name="cards displayed are &quot;true&quot;" time="0.001"/>
-  <testcase classname="Home page of default login with parameterization #3" name="Home page of default login with parameterization #3" time="0.002"/>
-  <testcase classname="Home page of default login with parameterization #4" name="User is on Netbanking  landing page" time="0"/>
-  <testcase classname="Home page of default login with parameterization #4" name="User login in to application  with User4 and Pass4" time="0"/>
-  <testcase classname="Home page of default login with parameterization #4" name="Home page is populated" time="0"/>
-  <testcase classname="Home page of default login with parameterization #4" name="cards displayed are &quot;true&quot;" time="0"/>
-  <testcase classname="Home page of default login with parameterization #4" name="Home page of default login with parameterization #4" time="0.004"/>
-  <testcase classname="Home page of default login with parameterization #5" name="User is on Netbanking  landing page" time="0.001"/>
-  <testcase classname="Home page of default login with parameterization #5" name="User login in to application  with User5 and Pass5" time="0"/>
-  <testcase classname="Home page of default login with parameterization #5" name="Home page is populated" time="0"/>
-  <testcase classname="Home page of default login with parameterization #5" name="cards displayed are &quot;true&quot;" time="0"/>
-  <testcase classname="Home page of default login with parameterization #5" name="Home page of default login with parameterization #5" time="0.001"/>
+  <testcase classname="Search for items and validate results" name="User is on Greencart landing page" time="9.288"/>
+  <testcase classname="Search for items and validate results" name="User search for &quot;Cucumber&quot; Vegetable" time="0.529"/>
+  <testcase classname="Search for items and validate results" name="&quot;Cucumber&quot; results are displayed" time="0.022"/>
+  <testcase classname="Search for items and validate results" name="Search for items and validate results" time="4.157"/>
+  <testcase classname="Search for items and then move to checkout page" name="User is on Greencart landing page" time="4.938"/>
+  <testcase classname="Search for items and then move to checkout page" name="User search for &quot;Brinjal&quot; Vegetable" time="0.158"/>
+  <testcase classname="Search for items and then move to checkout page" name="Added items to cart" time="4.818"/>
+  <testcase classname="Search for items and then move to checkout page" name="User proceeded to Checkout page for purchase" time="2.259"/>
+  <testcase classname="Search for items and then move to checkout page" name="Verify selected &quot;Brinjal&quot; item is present in checkout page." time="0.044"/>
+  <testcase classname="Search for items and then move to checkout page" name="Search for items and then move to checkout page" time="0.253"/>
 </testsuite>
