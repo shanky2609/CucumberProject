@@ -1,38 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="0.325">
-<testcase classname="Application Login" name="Home page of default login with parameterization" time="0.108">
-<system-out><![CDATA[Given User is on Netbanking  landing page...................................passed
-When User login in to application  with User1 and Pass1.....................passed
-Then Home page is populated.................................................passed
-And cards displayed are "true"..............................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="15.415">
+<testcase classname="Search and place order for vegetables" name="Search for items and validate results" time="5.076">
+<system-out><![CDATA[Given User is on Greencart landing page.....................................passed
+When User search for "Cucumber" Vegetable...................................passed
+Then "Cucumber" results are displayed.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Application Login" name="Home page of default login with parameterization 2" time="0.007">
-<system-out><![CDATA[Given User is on Netbanking  landing page...................................passed
-When User login in to application  with User2 and Pass2.....................passed
-Then Home page is populated.................................................passed
-And cards displayed are "true"..............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Application Login" name="Home page of default login with parameterization 3" time="0.009">
-<system-out><![CDATA[Given User is on Netbanking  landing page...................................passed
-When User login in to application  with User3 and Pass3.....................passed
-Then Home page is populated.................................................passed
-And cards displayed are "true"..............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Application Login" name="Home page of default login with parameterization 4" time="0.006">
-<system-out><![CDATA[Given User is on Netbanking  landing page...................................passed
-When User login in to application  with User4 and Pass4.....................passed
-Then Home page is populated.................................................passed
-And cards displayed are "true"..............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Application Login" name="Home page of default login with parameterization 5" time="0.004">
-<system-out><![CDATA[Given User is on Netbanking  landing page...................................passed
-When User login in to application  with User5 and Pass5.....................passed
-Then Home page is populated.................................................passed
-And cards displayed are "true"..............................................passed
+<testcase classname="Search and place order for vegetables" name="Search for items and then move to checkout page" time="10.15">
+<system-out><![CDATA[Given User is on Greencart landing page.....................................passed
+When User search for "Brinjal" Vegetable....................................passed
+And Added items to cart.....................................................passed
+And User proceeded to Checkout page for purchase............................passed
+Then Verify selected "Brinjal" item is present in checkout page.............passed
 ]]></system-out>
 </testcase>
 </testsuite>

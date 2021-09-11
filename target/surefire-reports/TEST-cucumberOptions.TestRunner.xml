@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="25" failures="0" name="cucumberOptions.TestRunner" time="0.068" errors="0" skipped="0">
+<testsuite tests="25" failures="0" name="cucumberOptions.TestRunner" time="0.027" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Users\a\.jenkins\tools\hudson.model.JDK\Java_SE_8_\jre\bin"/>
@@ -62,26 +62,26 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Home page of default login with parameterization #1" name="User is on Netbanking  landing page" time="0.001"/>
+  <testcase classname="Home page of default login with parameterization #1" name="User is on Netbanking  landing page" time="0"/>
   <testcase classname="Home page of default login with parameterization #1" name="User login in to application  with User1 and Pass1" time="0.001"/>
   <testcase classname="Home page of default login with parameterization #1" name="Home page is populated" time="0"/>
-  <testcase classname="Home page of default login with parameterization #1" name="cards displayed are &quot;true&quot;" time="0.001"/>
-  <testcase classname="Home page of default login with parameterization #1" name="Home page of default login with parameterization #1" time="0.034"/>
+  <testcase classname="Home page of default login with parameterization #1" name="cards displayed are &quot;true&quot;" time="0"/>
+  <testcase classname="Home page of default login with parameterization #1" name="Home page of default login with parameterization #1" time="0.013"/>
   <testcase classname="Home page of default login with parameterization #2" name="User is on Netbanking  landing page" time="0.001"/>
-  <testcase classname="Home page of default login with parameterization #2" name="User login in to application  with User2 and Pass2" time="0.002"/>
-  <testcase classname="Home page of default login with parameterization #2" name="Home page is populated" time="0.001"/>
+  <testcase classname="Home page of default login with parameterization #2" name="User login in to application  with User2 and Pass2" time="0"/>
+  <testcase classname="Home page of default login with parameterization #2" name="Home page is populated" time="0"/>
   <testcase classname="Home page of default login with parameterization #2" name="cards displayed are &quot;true&quot;" time="0.001"/>
-  <testcase classname="Home page of default login with parameterization #2" name="Home page of default login with parameterization #2" time="0.005"/>
-  <testcase classname="Home page of default login with parameterization #3" name="User is on Netbanking  landing page" time="0.001"/>
-  <testcase classname="Home page of default login with parameterization #3" name="User login in to application  with User3 and Pass3" time="0.001"/>
-  <testcase classname="Home page of default login with parameterization #3" name="Home page is populated" time="0.005"/>
+  <testcase classname="Home page of default login with parameterization #2" name="Home page of default login with parameterization #2" time="0.002"/>
+  <testcase classname="Home page of default login with parameterization #3" name="User is on Netbanking  landing page" time="0"/>
+  <testcase classname="Home page of default login with parameterization #3" name="User login in to application  with User3 and Pass3" time="0"/>
+  <testcase classname="Home page of default login with parameterization #3" name="Home page is populated" time="0"/>
   <testcase classname="Home page of default login with parameterization #3" name="cards displayed are &quot;true&quot;" time="0.001"/>
-  <testcase classname="Home page of default login with parameterization #3" name="Home page of default login with parameterization #3" time="0.004"/>
-  <testcase classname="Home page of default login with parameterization #4" name="User is on Netbanking  landing page" time="0.002"/>
-  <testcase classname="Home page of default login with parameterization #4" name="User login in to application  with User4 and Pass4" time="0.001"/>
-  <testcase classname="Home page of default login with parameterization #4" name="Home page is populated" time="0.001"/>
+  <testcase classname="Home page of default login with parameterization #3" name="Home page of default login with parameterization #3" time="0.002"/>
+  <testcase classname="Home page of default login with parameterization #4" name="User is on Netbanking  landing page" time="0"/>
+  <testcase classname="Home page of default login with parameterization #4" name="User login in to application  with User4 and Pass4" time="0"/>
+  <testcase classname="Home page of default login with parameterization #4" name="Home page is populated" time="0"/>
   <testcase classname="Home page of default login with parameterization #4" name="cards displayed are &quot;true&quot;" time="0"/>
-  <testcase classname="Home page of default login with parameterization #4" name="Home page of default login with parameterization #4" time="0.003"/>
+  <testcase classname="Home page of default login with parameterization #4" name="Home page of default login with parameterization #4" time="0.004"/>
   <testcase classname="Home page of default login with parameterization #5" name="User is on Netbanking  landing page" time="0.001"/>
   <testcase classname="Home page of default login with parameterization #5" name="User login in to application  with User5 and Pass5" time="0"/>
   <testcase classname="Home page of default login with parameterization #5" name="Home page is populated" time="0"/>
