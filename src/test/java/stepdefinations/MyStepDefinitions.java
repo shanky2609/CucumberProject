@@ -13,17 +13,19 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.junit.Cucumber;
+import pageObjects.HomePage;
 
 @RunWith(Cucumber.class)
 public class MyStepDefinitions {
 	
 	public WebDriver driver;
+	HomePage h;
 
     @Given("^User is on Greencart landing page$")
     public void user_is_on_greencart_landing_page() throws Throwable {
         
     	driver =Base.getDriver();
-    	driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+    	//driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
     	
     	driver.manage().window().maximize();
     }
@@ -33,9 +35,11 @@ public class MyStepDefinitions {
         
     	//     //tagname[@attribute='value']
     	
-    	driver.findElement(By.xpath("//input[@type='search']")).sendKeys(strArg1);
+    	h=new HomePage(driver);
     	
-    	
+    	h.getSearch().sendKeys(strArg1);
+    	//driver.findElement(By.xpath("//input[@type='search']")).sendKeys(strArg1);
+    		
     }
 
     @Then("^\"([^\"]*)\" results are displayed$")
